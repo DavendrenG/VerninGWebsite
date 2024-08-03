@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davendren Govender</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ff8c42 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section#main {
+            padding: 20px;
+            background: #000;
+        }
+        section#main h1 {
+            text-align: center;
+            color: #ff8c42;
+        }
+        .bio, .links, .contact, .activities, .endeavors, .poll {
+            padding: 20px;
+            background: #333;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            background: #555;
+            color: #fff;
+            border: none;
+        }
+        .contact-form input[type="submit"] {
+            background: #ff8c42;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+        }
+        .links a {
+            display: block;
+            margin: 5px 0;
+            color: #ff8c42;
+        }
+        footer {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        .activities img, .endeavors img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Davendren Govender</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#bio">About Me</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#endeavors">Endeavors</a></li>
+                    <li><a href="#poll">Poll</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Page</h1>
+            <p>Explore my journey, interests, and projects.</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <div id="bio" class="bio">
+                <h2>About Me</h2>
+                <p>My name is Davendren Govender and I hold a BSc Honours degree and a Bachelor's degree. I am a Podcast host of "Vernin G Podcast" and run a weekly Newsletter "Vernin G Insights: Wisdom for the Week". I am also a 1st Stripe White Belt in Brazilian Jiu-Jitsu, I do boxing for fun, compete in bootcamp body transformation challenges, swim and enjoy hikes. I have also been initiated into Kriya Yoga by Ananda and am aspiring to reach my highest potential and then help uplift others.</p>
+            </div>
+
+            <div id="activities" class="activities">
+                <h2>Activities</h2>
+                <ul>
+                    <li>
+                        <h3>Brazilian Jiu-Jitsu (1st Stripe White Belt)</h3>
+                        <img src="https://example.com/images/jiu-jitsu.jpg" alt="Brazilian Jiu-Jitsu">
+                        <p>Brazilian Jiu-Jitsu is a martial art focusing on grappling and ground fighting. I am currently a 1st Stripe White Belt, continually improving my skills.</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <h3>Boxing</h3>
+                        <img src="https://example.com/images/boxing.jpg" alt="Boxing">
+                        <p>I box for fun and fitness. It's a great way to stay in shape and relieve stress.</p>
+                    </li>
+                    <li>
+                        <h3>Bootcamp Body Transformation Challenges</h3>
+                        <img src="https://example.com/images/bootcamp.jpg" alt="Bootcamp">
+                        <p>I regularly participate in bootcamp challenges to stay fit and push my physical limits.</p>
+                    </li>
+                    <li>
+                        <h3>Swimming</h3>
+                        <img src="https://example.com/images/swimming.jpg" alt="Swimming">
+                        <p>Swimming is a great way to relax and maintain my fitness.</p>
+                    </li>
+                    <li>
+                        <h3>Hiking</h3>
+                        <img src="https://example.com/images/hiking.jpg" alt="Hiking">
+                        <p>I enjoy hiking and exploring nature's beauty.</p>
+                    </li>
+                    <li>
+                        <h3>Kriya Yoga</h3>
+                        <img src="https://example.com/images/yoga.jpg" alt="Kriya Yoga">
+                        <p>Kriya Yoga has been a transformative practice in my spiritual journey.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="endeavors" class="endeavors">
+                <h2>Current Endeavors</h2>
+                <ul>
+                    <li>
+                        <h3>Endeavor 1</h3>
+                        <img src="https://example.com/images/endeavor1.jpg" alt="Endeavor 1">
+                        <p>I am working on a new project that focuses on health and wellness.</p>
+                    </li>
+                    <li>
+                        <h3>Endeavor 2</h3>
+                        <img src="https://example.com/images/endeavor2.jpg" alt="Endeavor 2">
+                        <p>My second endeavor involves launching a new podcast series on personal development.</p>
+                    </li>
+                    <li>
+                        <h3>Endeavor 3</h3>
+                        <img src="https://example.com/images/endeavor3.jpg" alt="Endeavor 3">
+                        <p>I am developing an online course on effective time management.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="poll" class="poll">
+                <h2>Weekly Poll</h2>
+                <form id="pollForm">
+                    <label for="pollQuestion">Question: What topic would you like to hear about next on the podcast?</label><br>
+                    <input type="radio" id="option1" name="poll" value="Option 1">
+                    <label for="option1">Option 1</label><br>
+                    <input type="radio" id="option2" name="poll" value="Option 2">
+                    <label for="option2">Option 2</label><br>
+                    <input type="radio" id="option3" name="poll" value="Option 3">
+                    <label for="option3">Option 3</label><br>
+                    <input type="radio" id="option4" name="poll" value="Option 4">
+                    <label for="option4">Option 4</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="links" class="links">
+                <h2>Links</h2>
+                <a href="https://www.linkedin.com/in/davendren-govender-97216b61/">Check Out My LinkedIn</a>
+                <a href="https://verning.substack.com/">Subscribe To My Newsletter</a>
+                <a href="https://www.youtube.com/watch?v=UfRaZ58_SNE&list=OLAK5uy_lNAteU67DTmV4wbq61TtOiDF62LfI2kPM">Podcast 1 - Intro with Vernin G</a>
+                <a href="https://www.youtube.com/watch?v=FQ1hkdDxkp8&list=OLAK5uy_lu2VrPq_fuU_nV">Podcast 2 - Achieving Your Goals</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Davendren Govender &copy; 2024</p>
+    </footer>
+</body>
+</html>
+
